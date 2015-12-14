@@ -10,10 +10,11 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'spring',        group: :development
 
-group :development, :test do
+group :development, :test do'person@example.com'
   gem 'rspec-rails', '~>3.0.1'
 end
 
 group :test do
   gem 'capybara', '~>2.3.0'
+  gem 'database_cleaner'
 end
